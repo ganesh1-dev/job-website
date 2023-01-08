@@ -1,0 +1,97 @@
+.app{
+  background-color: rgb(220, 242, 246);
+}
+
+.navBar{
+  width: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,14,189,1) 100%);
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 11rem;
+  z-index: 4;
+}
+.registrationForm{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+}
+.form{
+  border-right: 1px solid black;
+  padding-right: 40px;
+}
+.registration-presentation{
+  padding-left: 80px;
+  margin-top: 35px; 
+}
+.list{
+  margin-top: 2rem;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+.check-icon{
+  color: lightgreen;
+  font-size: 35px;
+}
+.hero{
+  padding: 1rem 12rem;
+  background-color: azure;
+  color: rgb(57, 57, 143);
+  background: linear-gradient(40deg, azure 0, rgb(116, 172, 172) 100%)
+}
+.hero-img{
+  width: 100%;
+  height: 23rem;
+  border-radius: 5%;
+}
+
+.card{
+  height: 250px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  
+}
+
+h2, h3{
+  color: whitesmoke;
+}
+.body{
+  background-color: rgb(196, 232, 248);
+}
+.footer{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,14,189,1) 100%);
+  color: whitesmoke;
+  /* bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed; */
+}
+.job-card{
+  max-height: 200px;
+}
+.button{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,65,200,1) 40%, rgba(130,14,189,1) 100%);
+  text-decoration: none;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px 30px;
+  font-weight: 400;
+}
+
+.button:hover{
+   color: rgb(252, 251, 251);
+  font-weight: 600;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(131, 149, 203) 40%, rgb(142, 95, 166) 100%);
+}
+.carousel{
+ margin-bottom: 2rem;
+ z-index: 1;
+}
+.carousel-img{
+  height: 450px;
+}
